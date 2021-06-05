@@ -14,7 +14,7 @@ import com.fatec.scel.po.PageCadastrarLivro;
 import com.fatec.scel.po.PageLogin;
 
 @SpringBootTest(webEnvironment = WebEnvironment.DEFINED_PORT)
-class REQ01CadastrarLivroTSTests {
+class REQ01CadastrarLivroTS {
 	private WebDriver driver;
 	@BeforeEach
 	public void setup() {

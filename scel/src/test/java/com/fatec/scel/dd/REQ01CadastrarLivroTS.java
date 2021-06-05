@@ -22,7 +22,7 @@ import com.fatec.scel.po.PageLogin;
 
 @SpringBootTest(webEnvironment = WebEnvironment.DEFINED_PORT)
 
-class REQ01CadastrarLivroTSTests {
+class REQ01CadastrarLivroTS {
 
 	static private WebDriver driver;
 	static JavascriptExecutor js;
@@ -34,7 +34,7 @@ class REQ01CadastrarLivroTSTests {
 
 	@BeforeAll
 	public static void inicializa() {
-		logger = LogManager.getLogger(REQ01CadastrarLivroTSTests.class);
+		logger = LogManager.getLogger(REQ01CadastrarLivroTS.class);
 		driver = DriverFactory.getDriver();
 		driver.get("https://ts-scel.herokuapp.com");
 		js = (JavascriptExecutor) driver;
