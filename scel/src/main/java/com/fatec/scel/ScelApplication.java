@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Bean;
 
 import com.fatec.scel.model.Livro;
 import com.fatec.scel.model.LivroRepository;
-
+// 1. versao sem modificacao incluindo comentario deve alterar o master e passar no ci
 @SpringBootApplication
 public class ScelApplication {
 	Logger logger = LogManager.getLogger(ScelApplication.class);
