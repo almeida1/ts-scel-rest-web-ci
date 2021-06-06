@@ -15,6 +15,7 @@ import com.fatec.scel.model.Livro;
 import com.fatec.scel.model.LivroRepository;
 // 1. versao sem modificacao incluindo comentario deve alterar o master e passar no ci
 // 2. versao ct modificado para dar erro nao deve alterar o master ci nao ok
+//3. versao ct modificado para passar o teste ci ok
 @SpringBootApplication
 public class ScelApplication {
 	Logger logger = LogManager.getLogger(ScelApplication.class);
