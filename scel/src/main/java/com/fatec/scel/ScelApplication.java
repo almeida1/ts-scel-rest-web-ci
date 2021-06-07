@@ -16,6 +16,7 @@ import com.fatec.scel.model.LivroRepository;
 // 1. versao sem modificacao incluindo comentario deve alterar o master e passar no ci
 // 2. versao ct modificado para dar erro nao deve alterar o master ci nao ok
 //3. versao ct modificado para passar o teste ci ok
+// 4. versao ct modificado para validar o status do badge com erro
 @SpringBootApplication
 public class ScelApplication {
 	Logger logger = LogManager.getLogger(ScelApplication.class);

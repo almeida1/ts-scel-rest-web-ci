@@ -34,8 +34,8 @@ class REQ01CadastrarLivroTITests {
 		// Quando - o atendente cadastra um livro com informações válidas
 		repository.save(livro);
 		// Então - o sistema valida os dados E confirma a operação
-		assertEquals(1, repository.count());
-		//assertEquals(2, repository.count()); //modificado para validar o CI
+		//assertEquals(1, repository.count());
+		assertEquals(2, repository.count()); //modificado para validar o CI e o badge
 	}
 
 	@Test
