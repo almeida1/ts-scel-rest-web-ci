@@ -14,9 +14,10 @@ import org.springframework.context.annotation.Bean;
 import com.fatec.scel.model.Livro;
 import com.fatec.scel.model.LivroRepository;
 // 1. versao sem modificacao incluindo comentario deve alterar o master e passar no ci
-// 2. versao ct modificado para dar erro nao deve alterar o master ci nao ok
+// 2. versao ct modificado para dar erro confirma o merge no master status failure na geracao do build ci nao ok
 //3. versao ct modificado para passar o teste ci ok
-// 4. versao ct modificado para validar o status do badge com erro
+// 4. versao ct modificado para validar o status do badge com erro status - failing
+// 5. caso de teste ok para validar status do badge - restultado esperado status ok
 @SpringBootApplication
 public class ScelApplication {
 	Logger logger = LogManager.getLogger(ScelApplication.class);
